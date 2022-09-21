@@ -1,0 +1,96 @@
+.bg-img {
+    /* The image used */
+    background-image: url("../assets/img/bitmap.png");
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container_navbar {
+    position: absolute;
+    width: 100%;
+    background-color: #5e5e5e;   
+  }
+  
+  /* The navbar */
+  .topnav {
+    position: relative  ;
+    overflow: hidden; 
+    left: 50%;
+    
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("../assets/Montserrat/Montserrat-SemiBold.ttf");
+  }
+  /* Navbar links */
+  .topnav a {
+    width: 158px;
+    height: 19px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat-SemiBold';
+    
+  }
+  
+  .topnav a:hover , .dropdown:hover .dropbtn {
+    background-color: #cfb995;
+    color: black;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  

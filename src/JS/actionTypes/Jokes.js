@@ -1,0 +1,1 @@
+export const GET_ALL_JOKES = "GET_ALL_JOKES";
